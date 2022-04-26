@@ -1,6 +1,6 @@
 .container {
   display: grid;
-  grid-template-rows: 80vh;
+  grid-template-rows: 80vh min-content 40vh repeat(3, min-content);
 }
 
 .sidebar {
