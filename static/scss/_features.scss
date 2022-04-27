@@ -5,3 +5,19 @@
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 6rem;
 }
+
+.feature {
+  display: grid;
+  grid-template-columns: min-content 1fr;
+
+  &__icon {
+    fill: $color-primary;
+    width: 4.5rem;
+    height: 4.5rem;
+    grid-row: 1 / -1;
+  }
+
+  &__text {
+    font-size: 1.7rem;
+  }
+}
